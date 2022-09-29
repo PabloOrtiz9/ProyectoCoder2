@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Reenie+Beanie&display=swap');
 .body {
     
     background-size: cover;
@@ -13,13 +13,19 @@
 /*HEADER*/
 
 .header-container {
-    background-color: rgb(15, 52, 96);
+    background: rgb(10,10,22);
+    background: linear-gradient(349deg, rgba(10,10,22,1) 18%, rgba(158,70,252,1) 100%);    
     color: #f1ddbf;
-    border-bottom: solid 2px rgb(83, 52, 131);
+    border-bottom: solid 2px black;
     position: sticky;
     top: 0px;
     font-size: 20px;
     
+}
+.animacion-menu:hover{
+
+    transition: all 1s;
+
 }
 
 .logo-photo {
@@ -39,9 +45,10 @@
     text-decoration: none;
     color: rgb(233, 69, 96);
     font-family: 'Nunito', sans-serif;
+    font-weight: 400;
 }
 .menu-list:hover{
-    transform: scale(2);
+    transform: scale(1.5);
     transition-property: all;
     transition-duration: 2s;
 }
@@ -75,14 +82,14 @@
 
                                         /* FOOTER*/
 .footer-container {
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: rgb(10,10,22);
+    background: linear-gradient(184deg, rgba(10,10,22,1) 18%, rgba(158,70,252,1) 100%);    
     color: rgb(233, 69, 96);
     font-size: 15px;
     padding: 20px 0px;
     padding: 20px;
     height: auto;
-    border-top: solid 2px rgb(83, 52, 131);
+    border-top: solid 2px black;
 }
 .logo-photo2 {
     width: 180px;
