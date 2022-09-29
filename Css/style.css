@@ -3,7 +3,8 @@
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap');
+
 .body {
     
     background-size: cover;
@@ -34,6 +35,8 @@
     overflow: hidden;
 }
 .menu {
+    font-family: Poppins;
+    font-weight: 500;
     list-style: none;
     display: flex;
     justify-content: space-between;
