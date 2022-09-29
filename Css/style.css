@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.body {
+    
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+/*HEADER*/
+
+.header-container {
+    background-color: rgb(15, 52, 96);
+    color: #f1ddbf;
+    border-bottom: solid 2px rgb(83, 52, 131);
+    position: sticky;
+    top: 0px;
+    font-size: 20px;
+    
+}
+
+.logo-photo {
+    width: 165px;
+    height: 140px;
+    overflow: hidden;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(233, 69, 96);
+    font-weight: 400;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(233, 69, 96);
+    font-family: 'Nunito', sans-serif;
+}
+.menu-list:hover{
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+
+
+/*Mains*/
+
+.main-background{ 
+    background-image: url(/imagenes/verticalconcert.jfif);
+    padding-top: 20px; bottom: 30px;
+    
+
+}
+
+.band-text{
+    font-weight: 500;
+    font-size: 35px;
+    color: white;
+}
+.shadow-image{
+    box-shadow: 27px 22px 5px 0px rgba(31,23,23,0.58);
+-webkit-box-shadow: 27px 22px 5px 0px rgba(31,23,23,0.58);
+-moz-box-shadow: 27px 22px 5px 0px rgba(31,23,23,0.58);
+}
+.text-shadow{
+    text-shadow: 4px 4px 0px rgba(6,6,6,0.55);
+
+}
+
+
+                                        /* FOOTER*/
+.footer-container {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: rgb(233, 69, 96);
+    font-size: 15px;
+    padding: 20px 0px;
+    padding: 20px;
+    height: auto;
+    border-top: solid 2px rgb(83, 52, 131);
+}
+.logo-photo2 {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.footer-list {
+    font-weight: bold;
+    list-style-type: none;
+    color: grey;
+}
+
+.iconos {
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* info de bandas*/
+
+.container-edit{
+    color: white;
+    font-size: 15px;
+    padding-left: 50px;
+    height: auto;
+    text-align: center;
+}
+
+
+/*INFORMACION HTML*/
+
+.como-llegar {
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    height: 100px;
+    font-size: 50px;
+    color: white;
+}
+
+.como-llegar h1 {
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.info-hipodromo {
+    color: white;
+    height: 500px;
+    font-size: 50px;
+    padding-left: 50px;
+    height: auto;
+    text-align: center;
+}
