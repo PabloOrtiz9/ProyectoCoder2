@@ -18,19 +18,21 @@
 </head>
 
 <body>
-
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(349deg, rgb(22, 10, 13) 18%, rgba(158,70,252,1) 100%); border-bottom: solid 2px black;">
+        <nav class="navbar navbar-expand-lg navbar-light"
+            style="background: linear-gradient(349deg, rgb(22, 10, 13) 18%, rgba(158,70,252,1) 100%); border-bottom: solid 2px black;">
             <div class="container-fluid">
-                <img src="/imagenes/logo gyutar.png" class="logo-photo animate__animated animate__tada" href="#"
-                    alt="img-fluid">
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
+                <a href="/index.html">
+                    <img src="/imagenes/logo gyutar.png" class="logo-photo animate__animated animate__tada"
+                        alt="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="menu navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="menu navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                        style="--bs-scroll-height: 100px;">
                         <li class="nav-item animate__animated animate__bounceIn"><a class="nav-link menu-list"
                                 href="/index.html">INICIO</a></li>
                         <li class="nav-item animate__animated animate__bounceIn"><a class="nav-link menu-list"
@@ -47,10 +49,9 @@
                             <a class="nav-link" href="#"><i class="fas fa-shopping-cart" style="color: white;"></i></a>
                         </li>
                     </ul>
-                    <form class="w-auto">
-                        <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
                     </form>
-
                 </div>
             </div>
         </nav>
@@ -63,7 +64,7 @@
                 <div class="col-lg-6 col-md-4 col-12">
                     <p class="text-shadow"> DIA 1 : GREEN DAY - BLINK 182 - MAC DEMARCO </p>
                 </div>
-                <div id="carouselExampleCaptions1" class="  carousel slide carousel-dias col-lg-6 col-md-8 col-12"
+                <div id="carouselExampleCaptions1" class="carousel slide carousel-dias col-lg-6 col-md-8 col-12"
                     data-bs-ride="false">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0"
@@ -206,36 +207,33 @@
     </main>
 
     <footer>
-        <nav class=" container-fluid" style="background: rgb(10,10,22); background: linear-gradient(349deg, rgba(10,10,22,1) 18%, rgba(158,70,252,1) 100%); border-top: solid 2px black; ">
-            <div class="row align-items-center">
-                <div class="col-lg-3 col-md-6 col-6">
-                    <img src="/imagenes/logo gyutar.png" class="logo-photo2" alt="">
-                </div>
-                <div class="menu col-lg-3 col-md-6 col-6">
-                    <p class="h5">Festival</p>
-                    <ul class="menu">
-                        <li class="menu-list"> Tickets </li>
-                        <li class="menu-list"> Sponsors </li>
-                        <li class="menu-list"> Merch </li>
-                    </ul>
-                </div>
-                <div class=" menu col-lg-3 col-md-6 col-6">
-                    <p class="h5">Contacto</p>
-                    <ul class="menu" style="font-family: fantasy;">
-                        <li class="menu-list">Contacto</li>
-                        <li class="menu-list">Informacion</li>
-                        <li class="menu-list">Prensa</li>
-                    </ul>
-                </div>
-                <div class="menu col-lg-3 col-md-6 col-6">
-                    <p class="h5">Social</p>
-                    <ul class="menu">
-                        <li class="iconos"><i class="fa-brands fa-square-instagram menu-list"></i></li>
-                        <li class="iconos"><i class="fa-brands fa-square-twitter menu-list"></i></li>
-                        <li class="iconos"><i class="fa-brands fa-youtube menu-list"></i></li>
-                    </ul>
-                </div>
+        <nav class=" container-fluid footer-container"
+            style="background: rgb(72,11,152); background: linear-gradient(184deg, rgba(72,11,152,1) 18%, rgba(158,70,252,1) 100%); border-top: solid 2px black; ">
+            <div class="row">
+                <a href="/index.html" class="col-lg-3 col-md-6 col-6 text-uppercase d-flex align-item-center">
+                    <img src="/imagenes/logo gyutar.png" class="logo-photo animate__animated animate__tada"
+                        alt="img-fluid">
+                </a>
+                <ul class="col-lg-3 col-md-6 col-6 list-unstyled menu">
+                    <li class="font-weight-bold text-uppercase" style="color: black;"> Festival</li>
+                    <li class="menu-list text-reset">Tickets</li>
+                    <li class="menu-list text-reset">Sponsors</li>
+                    <li class="menu-list text-reset">Merch</li>
+                </ul>
+                <ul class="col-lg-3 col-md-6 col-6 list-unstyled menu">
+                    <li class="font-weight-bold text-uppercase" style="color: black;"> Contacto</li>
+                    <li class="menu-list text-reset">Contacto</li>
+                    <li class="menu-list text-reset">Información</li>
+                    <li class="menu-list text-reset">Prensa</li>
+                </ul>
+                <ul class="col-lg-3 col-md-6 col-6 list-unstyled menu">
+                    <li class="font-weight-bold text-uppercase" style="color: black;"> Social</li>
+                    <li class="iconos"><i class="fa-brands fa-square-instagram menu-list"></i></li>
+                    <li class="iconos"><i class="fa-brands fa-square-twitter menu-list"></i></li>
+                    <li class="iconos"><i class="fa-brands fa-youtube menu-list"></i></li>
+                </ul>
             </div>
+
         </nav>
     </footer>
 

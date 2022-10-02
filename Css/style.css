@@ -31,8 +31,8 @@
     padding-right: 20px;
 }
 .menu {
+    color: rgb(24, 22, 22);
     font-weight: 500;
-    color:  rgb(233, 69, 96);
     font-family: fantasy;
     font-weight: 500;
     font-size: 22px;
@@ -73,12 +73,9 @@
 
                                         /* FOOTER*/
 .footer-container {
-    background: linear-gradient(184deg, rgba(10,10,22,1) 18%, rgba(158,70,252,1) 100%);    
-    color: rgb(233, 69, 96);
     padding: 20px 0px;
     padding: 20px;
     height: auto;
-    border-top: solid 2px black;
 }
 .logo-photo2 {
     width: 180px;
