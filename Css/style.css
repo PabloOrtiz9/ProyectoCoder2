@@ -23,33 +23,21 @@
     font-size: 20px;
     
 }
-.animacion-menu:hover{
-
-    transition: all 1s;
-
-}
 
 .logo-photo {
     width: 165px;
     height: 140px;
     overflow: hidden;
+    padding-right: 20px;
 }
 .menu {
-    font-family: Poppins;
     font-weight: 500;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    color: rgb(233, 69, 96);
-    font-weight: 400;
+    color:  rgb(233, 69, 96);
+    font-family: fantasy;
+    font-weight: 500;
+    font-size: 22px;
 }
 
-.menu a {
-    text-decoration: none;
-    color: rgb(233, 69, 96);
-    font-family: 'Nunito', sans-serif;
-    font-weight: 400;
-}
 .menu-list:hover{
     transform: scale(1.5);
     transition-property: all;
@@ -58,7 +46,7 @@
 
 
 
-/*Mains*/
+/*Personalizacion Mains*/
 
 .main-background{ 
     background-image: url(/imagenes/verticalconcert.jfif);
@@ -85,10 +73,8 @@
 
                                         /* FOOTER*/
 .footer-container {
-    background: rgb(10,10,22);
     background: linear-gradient(184deg, rgba(10,10,22,1) 18%, rgba(158,70,252,1) 100%);    
     color: rgb(233, 69, 96);
-    font-size: 15px;
     padding: 20px 0px;
     padding: 20px;
     height: auto;
@@ -101,9 +87,9 @@
 }
 
 .footer-list {
-    font-weight: bold;
+    font-family: fantasy;
+    font-size: 20px;
     list-style-type: none;
-    color: grey;
 }
 
 .iconos {
